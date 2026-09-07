@@ -649,6 +649,10 @@ img {
     display: grid;
   }
 
+  .cert-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .main-nav {
     display: none;
   }
@@ -663,6 +667,9 @@ img {
 }
 
 @media (max-width: 560px) {
+  .cert-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .section {
     padding: 4.5rem 0;
   }
