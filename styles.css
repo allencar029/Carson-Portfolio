@@ -619,6 +619,11 @@ img {
   font-weight: 500;
 }
 
+.contact-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
 .contact-links a:hover,
 .contact-links a:focus-visible {
   color: var(--text);
